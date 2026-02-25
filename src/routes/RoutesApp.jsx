@@ -1,8 +1,9 @@
-import { BrowserRouter, Routes, Route } from 'react-router';
+import { BrowserRouter, Route, Routes } from 'react-router';
+import Menu from '../componentes/Menu/index.jsx';
 import Inicio from '../paginas/Inicio/index.jsx';
 import SobreMim from '../paginas/SobreMim/index.jsx';
-import Menu from '../componentes/Menu/index.jsx';
-import './RoutesApp.css'
+import Rodape from '../componentes/Rodape/index.jsx';
+import './RoutesApp.css';
 
 export default function App() {
   return (
@@ -15,6 +16,8 @@ export default function App() {
           <Route path='/sobremim' element={<SobreMim />}/>
           <Route path='*' element={<div>Página não encontrada</div>}/>
         </Routes>
+
+        <Rodape/>
       </BrowserRouter>
     </>
   )
