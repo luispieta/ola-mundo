@@ -4,13 +4,12 @@ import Post from "../../componentes/Post"
 
 export default function Inicio() {
     return(
-
-            <ul className={styles.posts}>
-                {posts.map((post) => (
-                    <li key={post.id}>
-                        <Post post={post}/>
-                    </li>
-                ))}
-            </ul>
+        <ul className={styles.posts}>
+            {posts.map((post) => (
+                <li key={post.id}>
+                    <Post post={post}/>
+                </li>
+            ))}
+        </ul>
     )
 }
