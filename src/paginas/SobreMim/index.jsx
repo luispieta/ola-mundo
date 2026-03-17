@@ -34,7 +34,7 @@ export default function SobreMim() {
             </p>
 
             <p className={styles.paragrafo}>
-                Também mantenho projetos próprios no meu GitHub (github.com/luispieta), onde desenvolvo aplicações para aprimorar minhas habilidades técnicas e explorar novas tecnologias. Entre os principais projetos, destacam-se:
+                Também mantenho projetos próprios no meu GitHub <a href="https://github.com/luispieta" target="_blank">(github.com/luispieta)</a>, onde desenvolvo aplicações para aprimorar minhas habilidades técnicas e explorar novas tecnologias. Entre os principais projetos, destacam-se:
             </p>
 
             <p className={styles.paragrafo}>

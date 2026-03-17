@@ -10,10 +10,7 @@ export default function Banner () {
                 <p className={styles.paragrafo}>
                     Sou um profissional em constante evolução, com uma trajetória marcada por aprendizado prático, adaptação e crescimento na área de tecnologia.
                     Mantenho projetos próprios no meu GitHub <a href="https://github.com/luispieta" target="_blank">(github.com/luispieta)</a>, onde desenvolvo aplicações para aprimorar minhas habilidades técnicas 
-                    e explorar novas tecnologias. Entre os principais projetos, destacam-se: sleep_colchoes: um site desenvolvido com foco comercial, demonstrando 
-                    aplicação de conceitos de layout, responsividade e organização estrutural para apresentação de produtos. rpg_app_flutter: aplicativo desenvolvido
-                    em Flutter, com foco em gerenciamento de informações para jogos de RPG, explorando construção de interfaces, organização de estados e lógica de 
-                    aplicação mobile.
+                    e explorar novas tecnologias.
                 </p>
             </div>
 

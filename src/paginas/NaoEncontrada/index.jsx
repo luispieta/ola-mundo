@@ -1,7 +1,12 @@
 import styles from "./NaoEncontrada.module.css"
 import erro404 from "../../../public/assets/fotos/erro_404.png"
+import BotaoPrincipal from "../../componentes/BotaoPrincipal"
+import { useNavigate } from "react-router"
 
 export default function NaoEncontrada() {
+
+    const navegar = useNavigate()
+    
     return(
         <>
             <div className={styles.conteudoContainer}>
@@ -12,15 +17,18 @@ export default function NaoEncontrada() {
                 </h1>
 
                 <p className={styles.paragrafo}>
-                    texto
+                    Aperte o botão de Voltar para retornar a página de início.
                 </p>
 
-                <p className={styles.paragrafo}>
-                    tecto
-                </p>
-
-                <div className={styles.botaoContainer}>
-                    <button>Voltar</button>
+                <div 
+                    className={styles.botaoContainer} 
+                    onClick={() => {
+                        navegar(-1)
+                    }}
+                >
+                    <BotaoPrincipal tamanho="lg">
+                        Voltar
+                    </BotaoPrincipal>
                 </div>
 
                 <img 
