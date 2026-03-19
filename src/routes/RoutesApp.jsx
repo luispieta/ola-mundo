@@ -6,11 +6,13 @@ import Rodape from '../componentes/Rodape/index.jsx';
 import PaginaPadrao from '../componentes/PaginaPadrao/index.jsx';
 import Post from '../paginas/Post/index.jsx';
 import NaoEncontrada from '../paginas/NaoEncontrada/index.jsx';
+import ScrollTotop from "../componentes/ScrollToTop"
 
 export default function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollTotop/>
         <Menu />
 
         <Routes>
